@@ -9,7 +9,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -g -Wall -O0 -Wno-unused-vari
 #	/usr/lib64/mysql/
 #)
 #
-# �Ƽ�ʹ�� CentOS 7.0 ������ϵͳ..
+# �Ƽ�ʹ�� CentOS 7.0 ������ϵͳ..dwdwdw
 # CentOS 7.0 ������ϵͳĬ�ϰ�װ����mariadb����װ����
 # yum install mariadb-server mariadb mariadb-devel
 # CentOS 7.0 ����ϵͳĬ�ϰ�װmysql����װ������
