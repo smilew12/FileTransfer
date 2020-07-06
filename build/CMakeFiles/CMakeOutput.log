@@ -1,0 +1,824 @@
+The system is: Linux - 2.6.32-754.23.1.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/3.14.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/3.14.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1bba1/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_1bba1.dir/build.make CMakeFiles/cmTC_1bba1.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bba1.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1bba1.dir/testCCompiler.c.o   -c /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1bba1
+/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bba1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1bba1.dir/testCCompiler.c.o  -o cmTC_1bba1 
+gmake[1]: Leaving directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f7819/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_f7819.dir/build.make CMakeFiles/cmTC_f7819.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o   -c /home/software/cmake/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-redhat-linux
+Configured with: ./configure CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2 --prefix=/home/software/gcc/gcc --mandir=/home/software/gcc/gcc/share/man --infodir=/home/software/gcc/gcc/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++ --enable-plugin --enable-initfini-array --disable-libgcj --disable-dssi --enable-libgcj-multifile --with-ppl --with-cloog --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-diagnostics-color=auto --disable-multilib --program-suffix=8.1.0 --with-gmp=/home/software/gcc/gmp --with-mpfr=/home/software/gcc/mpfr --with-mpc=/home/software/gcc/mpc CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2
+Thread model: posix
+gcc version 8.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/cc1 -quiet -v /home/software/cmake/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccWTQ9Ee.s
+GNU C17 (GCC) version 8.1.0 (x86_64-redhat-linux)
+	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include
+ /usr/local/include
+ /home/software/gcc/gcc/include
+ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 8.1.0 (x86_64-redhat-linux)
+	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d9dcaec13aee9a1917fa530a2857a8d7
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o /tmp/ccWTQ9Ee.s
+GNU assembler version 2.20.51.0.2 (x86_64-redhat-linux) using BFD version version 2.20.51.0.2-5.48.el6_10.1 20100205
+COMPILER_PATH=/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_f7819
+/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7819.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o  -o cmTC_f7819 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ./configure CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2 --prefix=/home/software/gcc/gcc --mandir=/home/software/gcc/gcc/share/man --infodir=/home/software/gcc/gcc/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++ --enable-plugin --enable-initfini-array --disable-libgcj --disable-dssi --enable-libgcj-multifile --with-ppl --with-cloog --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-diagnostics-color=auto --disable-multilib --program-suffix=8.1.0 --with-gmp=/home/software/gcc/gmp --with-mpfr=/home/software/gcc/mpfr --with-mpc=/home/software/gcc/mpc CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2
+Thread model: posix
+gcc version 8.1.0 (GCC) 
+COMPILER_PATH=/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f7819' '-mtune=generic' '-march=x86-64'
+ /home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/collect2 --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f7819 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/crtbegin.o -L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0 -L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../.. CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f7819' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include]
+    add: [/usr/local/include]
+    add: [/home/software/gcc/gcc/include]
+    add: [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include] ==> [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/home/software/gcc/gcc/include] ==> [/home/software/gcc/gcc/include]
+  collapse include dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include-fixed] ==> [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include;/usr/local/include;/home/software/gcc/gcc/include;/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_f7819/fast ]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_f7819.dir/build.make CMakeFiles/cmTC_f7819.dir/build]
+  ignore line: [gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o   -c /home/software/cmake/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ./configure CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2 --prefix=/home/software/gcc/gcc --mandir=/home/software/gcc/gcc/share/man --infodir=/home/software/gcc/gcc/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++ --enable-plugin --enable-initfini-array --disable-libgcj --disable-dssi --enable-libgcj-multifile --with-ppl --with-cloog --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-diagnostics-color=auto --disable-multilib --program-suffix=8.1.0 --with-gmp=/home/software/gcc/gmp --with-mpfr=/home/software/gcc/mpfr --with-mpc=/home/software/gcc/mpc CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/cc1 -quiet -v /home/software/cmake/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccWTQ9Ee.s]
+  ignore line: [GNU C17 (GCC) version 8.1.0 (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /home/software/gcc/gcc/include]
+  ignore line: [ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 8.1.0 (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d9dcaec13aee9a1917fa530a2857a8d7]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o /tmp/ccWTQ9Ee.s]
+  ignore line: [GNU assembler version 2.20.51.0.2 (x86_64-redhat-linux) using BFD version version 2.20.51.0.2-5.48.el6_10.1 20100205]
+  ignore line: [COMPILER_PATH=/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_f7819]
+  ignore line: [/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7819.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o  -o cmTC_f7819 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ./configure CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2 --prefix=/home/software/gcc/gcc --mandir=/home/software/gcc/gcc/share/man --infodir=/home/software/gcc/gcc/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++ --enable-plugin --enable-initfini-array --disable-libgcj --disable-dssi --enable-libgcj-multifile --with-ppl --with-cloog --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-diagnostics-color=auto --disable-multilib --program-suffix=8.1.0 --with-gmp=/home/software/gcc/gmp --with-mpfr=/home/software/gcc/mpfr --with-mpc=/home/software/gcc/mpc CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f7819' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/collect2 --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f7819 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/crtbegin.o -L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0 -L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../.. CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f7819] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/crtbegin.o] ==> ignore
+    arg [-L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0] ==> dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0]
+    arg [-L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64] ==> dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../..] ==> dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../..]
+    arg [CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0] ==> [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0]
+  collapse library dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64] ==> [/home/software/gcc/gcc/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../..] ==> [/home/software/gcc/gcc/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0;/home/software/gcc/gcc/lib64;/lib64;/usr/lib64;/home/software/gcc/gcc/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_74018/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_74018.dir/build.make CMakeFiles/cmTC_74018.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74018.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_74018.dir/feature_tests.c.o   -c /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_74018
+/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74018.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_74018.dir/feature_tests.c.o  -o cmTC_74018 
+gmake[1]: Leaving directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f6c3b/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_f6c3b.dir/build.make CMakeFiles/cmTC_f6c3b.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6c3b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_f6c3b.dir/feature_tests.c.o   -c /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f6c3b
+/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6c3b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f6c3b.dir/feature_tests.c.o  -o cmTC_f6c3b 
+gmake[1]: Leaving directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cc97c/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_cc97c.dir/build.make CMakeFiles/cmTC_cc97c.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc97c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_cc97c.dir/feature_tests.c.o   -c /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cc97c
+/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc97c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cc97c.dir/feature_tests.c.o  -o cmTC_cc97c 
+gmake[1]: Leaving directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7c947/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_7c947.dir/build.make CMakeFiles/cmTC_7c947.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c947.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_7c947.dir/testCXXCompiler.cxx.o -c /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_7c947
+/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c947.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_7c947.dir/testCXXCompiler.cxx.o  -o cmTC_7c947 
+gmake[1]: Leaving directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ba04d/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_ba04d.dir/build.make CMakeFiles/cmTC_ba04d.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o -c /home/software/cmake/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: x86_64-redhat-linux
+Configured with: ./configure CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2 --prefix=/home/software/gcc/gcc --mandir=/home/software/gcc/gcc/share/man --infodir=/home/software/gcc/gcc/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++ --enable-plugin --enable-initfini-array --disable-libgcj --disable-dssi --enable-libgcj-multifile --with-ppl --with-cloog --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-diagnostics-color=auto --disable-multilib --program-suffix=8.1.0 --with-gmp=/home/software/gcc/gmp --with-mpfr=/home/software/gcc/mpfr --with-mpc=/home/software/gcc/mpc CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2
+Thread model: posix
+gcc version 8.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/cc1plus -quiet -v -D_GNU_SOURCE /home/software/cmake/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccOGv7tT.s
+GNU C++14 (GCC) version 8.1.0 (x86_64-redhat-linux)
+	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../include/c++/8.1.0
+ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../include/c++/8.1.0/x86_64-redhat-linux
+ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../include/c++/8.1.0/backward
+ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include
+ /usr/local/include
+ /home/software/gcc/gcc/include
+ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 8.1.0 (x86_64-redhat-linux)
+	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7519ee52d01c5c069b333f5d7f50c319
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccOGv7tT.s
+GNU assembler version 2.20.51.0.2 (x86_64-redhat-linux) using BFD version version 2.20.51.0.2-5.48.el6_10.1 20100205
+COMPILER_PATH=/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_ba04d
+/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba04d.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ba04d 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ./configure CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2 --prefix=/home/software/gcc/gcc --mandir=/home/software/gcc/gcc/share/man --infodir=/home/software/gcc/gcc/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++ --enable-plugin --enable-initfini-array --disable-libgcj --disable-dssi --enable-libgcj-multifile --with-ppl --with-cloog --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-diagnostics-color=auto --disable-multilib --program-suffix=8.1.0 --with-gmp=/home/software/gcc/gmp --with-mpfr=/home/software/gcc/mpfr --with-mpc=/home/software/gcc/mpc CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2
+Thread model: posix
+gcc version 8.1.0 (GCC) 
+COMPILER_PATH=/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ba04d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/collect2 --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ba04d /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/crtbegin.o -L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0 -L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../.. CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ba04d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../include/c++/8.1.0]
+    add: [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../include/c++/8.1.0/x86_64-redhat-linux]
+    add: [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../include/c++/8.1.0/backward]
+    add: [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include]
+    add: [/usr/local/include]
+    add: [/home/software/gcc/gcc/include]
+    add: [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../include/c++/8.1.0] ==> [/home/software/gcc/gcc/include/c++/8.1.0]
+  collapse include dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../include/c++/8.1.0/x86_64-redhat-linux] ==> [/home/software/gcc/gcc/include/c++/8.1.0/x86_64-redhat-linux]
+  collapse include dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../include/c++/8.1.0/backward] ==> [/home/software/gcc/gcc/include/c++/8.1.0/backward]
+  collapse include dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include] ==> [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/home/software/gcc/gcc/include] ==> [/home/software/gcc/gcc/include]
+  collapse include dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include-fixed] ==> [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/home/software/gcc/gcc/include/c++/8.1.0;/home/software/gcc/gcc/include/c++/8.1.0/x86_64-redhat-linux;/home/software/gcc/gcc/include/c++/8.1.0/backward;/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include;/usr/local/include;/home/software/gcc/gcc/include;/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_ba04d/fast ]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_ba04d.dir/build.make CMakeFiles/cmTC_ba04d.dir/build]
+  ignore line: [gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o -c /home/software/cmake/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ./configure CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2 --prefix=/home/software/gcc/gcc --mandir=/home/software/gcc/gcc/share/man --infodir=/home/software/gcc/gcc/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++ --enable-plugin --enable-initfini-array --disable-libgcj --disable-dssi --enable-libgcj-multifile --with-ppl --with-cloog --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-diagnostics-color=auto --disable-multilib --program-suffix=8.1.0 --with-gmp=/home/software/gcc/gmp --with-mpfr=/home/software/gcc/mpfr --with-mpc=/home/software/gcc/mpc CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/cc1plus -quiet -v -D_GNU_SOURCE /home/software/cmake/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccOGv7tT.s]
+  ignore line: [GNU C++14 (GCC) version 8.1.0 (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../include/c++/8.1.0]
+  ignore line: [ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../include/c++/8.1.0/x86_64-redhat-linux]
+  ignore line: [ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../include/c++/8.1.0/backward]
+  ignore line: [ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /home/software/gcc/gcc/include]
+  ignore line: [ /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 8.1.0 (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7519ee52d01c5c069b333f5d7f50c319]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccOGv7tT.s]
+  ignore line: [GNU assembler version 2.20.51.0.2 (x86_64-redhat-linux) using BFD version version 2.20.51.0.2-5.48.el6_10.1 20100205]
+  ignore line: [COMPILER_PATH=/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_ba04d]
+  ignore line: [/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba04d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ba04d ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ./configure CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2 --prefix=/home/software/gcc/gcc --mandir=/home/software/gcc/gcc/share/man --infodir=/home/software/gcc/gcc/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++ --enable-plugin --enable-initfini-array --disable-libgcj --disable-dssi --enable-libgcj-multifile --with-ppl --with-cloog --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux --with-diagnostics-color=auto --disable-multilib --program-suffix=8.1.0 --with-gmp=/home/software/gcc/gmp --with-mpfr=/home/software/gcc/mpfr --with-mpc=/home/software/gcc/mpc CFLAGS=-O2 CXXFLAGS=-O2 CPPFLAGS=-O2]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ba04d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/collect2 --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ba04d /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/crtbegin.o -L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0 -L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../.. CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/home/software/gcc/gcc/libexec/gcc/x86_64-redhat-linux/8.1.0/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ba04d] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/crtbegin.o] ==> ignore
+    arg [-L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0] ==> dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0]
+    arg [-L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64] ==> dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../..] ==> dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../..]
+    arg [CMakeFiles/cmTC_ba04d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0] ==> [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0]
+  collapse library dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../../../lib64] ==> [/home/software/gcc/gcc/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0/../../..] ==> [/home/software/gcc/gcc/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/software/gcc/gcc/lib/gcc/x86_64-redhat-linux/8.1.0;/home/software/gcc/gcc/lib64;/lib64;/usr/lib64;/home/software/gcc/gcc/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9111d/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_9111d.dir/build.make CMakeFiles/cmTC_9111d.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9111d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_9111d.dir/feature_tests.cxx.o -c /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9111d
+/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9111d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_9111d.dir/feature_tests.cxx.o  -o cmTC_9111d 
+gmake[1]: Leaving directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d733c/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_d733c.dir/build.make CMakeFiles/cmTC_d733c.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d733c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_d733c.dir/feature_tests.cxx.o -c /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d733c
+/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d733c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d733c.dir/feature_tests.cxx.o  -o cmTC_d733c 
+gmake[1]: Leaving directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_62695/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_62695.dir/build.make CMakeFiles/cmTC_62695.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62695.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_62695.dir/feature_tests.cxx.o -c /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_62695
+/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62695.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_62695.dir/feature_tests.cxx.o  -o cmTC_62695 
+gmake[1]: Leaving directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_dc5ca/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_dc5ca.dir/build.make CMakeFiles/cmTC_dc5ca.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc5ca.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_dc5ca.dir/feature_tests.cxx.o -c /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_dc5ca
+/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc5ca.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_dc5ca.dir/feature_tests.cxx.o  -o cmTC_dc5ca 
+gmake[1]: Leaving directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_34880/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_34880.dir/build.make CMakeFiles/cmTC_34880.dir/build
+gmake[1]: Entering directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34880.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_34880.dir/feature_tests.cxx.o -c /home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_34880
+/home/software/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34880.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_34880.dir/feature_tests.cxx.o  -o cmTC_34880 
+gmake[1]: Leaving directory `/mnt/hgfs/G/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

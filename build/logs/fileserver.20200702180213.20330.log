@@ -1,0 +1,16 @@
+[ERROR][[2020-07-02 18:02:13:916]][140227331868448][/home/workspace/linux/源码学习/flamingo-study/fileserversrc/FileManager.cpp:45]open base dir error, errno: 2, No such file or directory
+[INFO][[2020-07-02 18:02:13:919]][140227331868448][/home/workspace/linux/源码学习/flamingo-study/fileserversrc/main.cpp:111]fileserver initialization completed, now you can use client to connect it.
+[INFO][[2020-07-02 18:04:16:666]][140227321304832][/home/workspace/linux/源码学习/flamingo-study/fileserversrc/FileServer.cpp:34]client connected: 10.102.75.133:36422
+[INFO][[2020-07-02 18:04:21:309]][140227321304832][/home/workspace/linux/源码学习/flamingo-study/fileserversrc/FileServer.cpp:62]client disconnected: 10.102.75.133:36422
+[INFO][[2020-07-02 18:04:31:590]][140227310814976][/home/workspace/linux/源码学习/flamingo-study/fileserversrc/FileServer.cpp:34]client connected: 10.102.75.133:36424
+[INFO][[2020-07-02 18:04:34:086]][140227310814976][/home/workspace/linux/源码学习/flamingo-study/fileserversrc/FileServer.cpp:62]client disconnected: 10.102.75.133:36424
+[INFO][[2020-07-02 18:22:47:874]][140227321304832][/home/workspace/linux/源码学习/flamingo-study/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x37ab8c20 , threadID: 140227321304832
+[INFO][[2020-07-02 18:22:47:875]][140227310814976][/home/workspace/linux/源码学习/flamingo-study/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x370b7c20 , threadID: 140227310814976
+[INFO][[2020-07-02 18:22:47:875]][140227300325120][/home/workspace/linux/源码学习/flamingo-study/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x366b6c20 , threadID: 140227300325120
+[INFO][[2020-07-02 18:22:47:875]][140227289835264][/home/workspace/linux/源码学习/flamingo-study/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x35cb5c20 , threadID: 140227289835264
+[INFO][[2020-07-02 18:22:47:875]][140227279345408][/home/workspace/linux/源码学习/flamingo-study/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x352b4c20 , threadID: 140227279345408
+[INFO][[2020-07-02 18:22:47:875]][140226924115712][/home/workspace/linux/源码学习/flamingo-study/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x1ffeec20 , threadID: 140226924115712
+[INFO][[2020-07-02 18:22:47:876]][140227331868448][/home/workspace/linux/源码学习/flamingo-study/net/EventLoop.cpp:141]Exiting loop, EventLoop object: 0x6d7da0 , threadID: 140227331868448
+[INFO][[2020-07-02 18:22:47:876]][140227331868448][/home/workspace/linux/源码学习/flamingo-study/fileserversrc/main.cpp:115]exit fileserver.
+[ERROR][[2020-07-02 18:22:47:876]][140227331868448][/home/workspace/linux/源码学习/flamingo-study/net/EpollPoller.cpp:216]epoll_ctl op=2 fd=3, epollfd=4, errno=2, errorInfo: No such file or directory
+[ERROR][[2020-07-02 18:22:47:876]][140227331868448][/home/workspace/linux/源码学习/flamingo-study/net/EpollPoller.cpp:216]epoll_ctl op=2 fd=3, epollfd=4, errno=2, errorInfo: No such file or directory

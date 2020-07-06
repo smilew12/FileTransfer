@@ -1,0 +1,4 @@
+/home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/edit_cache.dir
+/home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/rebuild_cache.dir
+/home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/fileserver.dir
+/home/workspace/linux/源码学习/flamingo-study/build/CMakeFiles/imgserver.dir
